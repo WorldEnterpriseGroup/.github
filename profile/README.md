@@ -23,10 +23,10 @@ We use a scientific method known as UBF to orchestrate business incubation.  We 
 We are working in collaboration with INSTAR Lab Inc, a Research Institute known for building strong Scientific Methods.
 
 Read the below files to understand the UBF in more detail.
-- United Business Framework
-- STAR Framework
-- ORBITAL Framework
-- DROID Framework
+- [United Business Framework](../Frameworks/UBF.md)
+- [STAR Framework](../Frameworks/STAR.md)
+- [ORBITAL Framework](../Frameworks/ORBITAL.md)
+- [DROID Framework](../Frameworks/DROID.md)
 
 <hr>
 
