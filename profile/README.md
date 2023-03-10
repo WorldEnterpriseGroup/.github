@@ -3,6 +3,20 @@ https://worldenterprise.com
 
 Edit this readme with examples like found [here](https://www.readme-templates.com/).
 
+
+### **GALAXY:**
+A business galaxy covers an entire industry, defined by a NAICS Code. It is a vast network of interconnected companies, organizations, and stakeholders that operate in the same industry, offering similar products or services, and competing for the same customers.
+
+### **BLACK HOLE:**
+The largest company inside the NAICS Code, identified as a large corporation at the center of a galaxy that slowly consumes all its competitors.
+
+### **SUPER NOVA:**
+A large event that can be felt across the entire industry.
+
+### **SOLAR SYSTEM:**
+Companies in a business galaxy are organized by their holding companies, known as the Solar System. These solar systems are classified based on their size, market share, and SIC Codes.
+
+
 <!--
 
 **Here are some ideas to get you started:**
