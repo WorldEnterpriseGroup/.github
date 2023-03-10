@@ -8,7 +8,7 @@ Edit this readme with examples like found [here](https://www.readme-templates.co
 The NAICS code for World Enterprise, a business incubator, would be 813910. This code is specifically for "Business Associations" and includes organizations that support entrepreneurs and small businesses, such as business incubators. 
 
 ### **BLACK HOLE:**
-The largest company inside the NAICS Code, identified as a large corporation at the center of a galaxy that slowly consumes all its competitors.
+The largest business incubator and accelerator in the USA that is in the NAICS 813910 and supports entrepreneurs and small businesses is the National Business Incubation Association (NBIA).
 
 ### **SUPER NOVA:**
 A large event that can be felt across the entire industry.
