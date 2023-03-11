@@ -8,10 +8,22 @@
 # name: LISA Comment Review
 # run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
 
+# ALOT OF THESE DO NOT WORK WITH GITHUB ACTIONS FOR ORGANIZATIONS AND WE ARE NOT SURE WHY
+# DOESN'T WORK
 # on: issue_comment
+
+# DOESN'T WORK
+# on:
+#   issues:
+#     types: [opened, edited, milestoned]
+
+
 on:
-  issues:
-    types: [opened, edited, milestoned]
+  label:
+    types: [created]
+
+# USE THE BELOW FUNCTION TO CREATE AN IF/ELSE STATEMENT ON IF A LABEL IS FOUND
+# contains( github.event.pull_request.labels.*.name, 'My Label')
 
 jobs:
   # pr_commented:
