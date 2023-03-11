@@ -8,11 +8,10 @@
 # name: LISA Comment Review
 # run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
 
-on: issue_comment
-# on:
-#   issues:
-#     types:
-#       - opened
+# on: issue_comment
+on:
+  issues:
+    types: [opened, edited, milestoned]
 
 jobs:
   # pr_commented:
@@ -38,7 +37,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Hi, I\'m Lisa.  I will soon be conducting DROID Reviews each time you comment, such as the above comment # $NUMBER
+            Hi, I will soon be conducting DROID Reviews each time you comment, such as the above comment ${{ github.event.issue.number }}
 
 # -----------------------------------------------------
 
