@@ -1,3 +1,6 @@
+name: LISA Comment Review
+run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
+
 on: issue_comment
 
 jobs:
