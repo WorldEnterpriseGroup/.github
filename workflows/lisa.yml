@@ -1,3 +1,10 @@
+# This currently cannot be enabled inside of the entire organization as a Required Workflow
+# https://docs.github.com//en/actions/using-workflows/required-workflows
+
+# Desire to run it from here: https://github.com/organizations/WorldEnterpriseGroup/settings/actions/required_workflows/new
+# Stack Overflow Help Area
+# https://stackoverflow.com/questions/61989951/github-action-workflow-not-running
+
 # name: LISA Comment Review
 # run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
 
