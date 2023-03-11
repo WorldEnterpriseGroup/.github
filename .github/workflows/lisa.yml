@@ -26,16 +26,19 @@ jobs:
     #     env:
     #       NUMBER: ${{ github.event.issue.number }}
 
-  issue_commented:
-    # This job only runs for issue comments
-    name: Issue comment
-    # if: ${{ !github.event.issue.pull_request }}
+  add-comment:
+    # This job only adds a comment
+    if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
-      - run: |
-          echo  Hi, I\'m Lisa.  I will soon be conductin DROID Reviews each time you comment, such as the above commont # $NUMBER
-        env:
-          NUMBER: ${{ github.event.issue.number }}
+      - name: Add comment
+        uses: peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Hi, I\'m Lisa.  I will soon be conducting DROID Reviews each time you comment, such as the above comment # $NUMBER
 
 # -----------------------------------------------------
 
