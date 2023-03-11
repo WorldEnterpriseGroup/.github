@@ -1,0 +1,61 @@
+# on: issue_comment
+
+# jobs:
+#   pr_commented:
+#     # This job only runs for pull request comments
+#     name: PR comment
+#     if: ${{ github.event.issue.pull_request }}
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: |
+#           echo Use Open AI to have LISA Review PR $NUMBER
+#         env:
+#           NUMBER: ${{ github.event.issue.number }}
+
+#   issue_commented:
+#     # This job only runs for issue comments
+#     name: Issue comment
+#     if: ${{ !github.event.issue.pull_request }}
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: |
+#           echo  Use Open AI to have LISA make a DROID Review on issue comment $NUMBER
+#         env:
+#           NUMBER: ${{ github.event.issue.number }}
+
+# -----------------------------------------------------
+
+# POSSIBLE HELP ON SETTING UP PYTHON
+
+# https://shipyard.build/blog/your-first-python-github-action/
+
+# name: 'Custom GitHub Action'
+# description: 'A GitHub Action that takes an input and returns the square of the number'
+# inputs:
+#   num:
+#     description: 'Enter a number'
+#     required: true
+#     default: "1"
+# outputs:
+#   num_squared:
+#     description: 'Square of the input'
+#     # need to specify the extra `value` field for `composite` actions
+#     value: ${{ steps.get-square.outputs.num_squared }}
+# runs:
+#   using: 'composite'
+#   steps:
+#     - name: Install Python
+#       uses: actions/setup-python@v4
+#       with:
+#         python-version: '3.10'  
+#     - name: Install Dependencies
+#       run: pip install -r requirements.txt
+#       shell: bash
+#     - name: Pass Inputs to Shell
+#       run: |
+#               echo "INPUT_NUM=${{ inputs.num }}" >> $GITHUB_ENV
+#       shell: bash
+#     - name: Fetch the number's square
+#       id: get-square
+#       run: python src/get_num_square.py
+#       shell: bash
