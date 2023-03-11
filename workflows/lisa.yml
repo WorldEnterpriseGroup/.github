@@ -1,19 +1,19 @@
-name: LISA Comment Review
-run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
+# name: LISA Comment Review
+# run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
 
 on: issue_comment
 
 jobs:
   pr_commented:
-    # This job only runs for pull request comments
-    name: PR comment
-    if: ${{ github.event.issue.pull_request }}
-    runs-on: ubuntu-latest
-    steps:
-      - run: |
-          echo Use Open AI to have LISA Review PR $NUMBER
-        env:
-          NUMBER: ${{ github.event.issue.number }}
+    # # This job only runs for pull request comments
+    # name: PR comment
+    # if: ${{ github.event.issue.pull_request }}
+    # runs-on: ubuntu-latest
+    # steps:
+    #   - run: |
+    #       echo Use Open AI to have LISA Review PR $NUMBER
+    #     env:
+    #       NUMBER: ${{ github.event.issue.number }}
 
   issue_commented:
     # This job only runs for issue comments
