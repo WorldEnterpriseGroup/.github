@@ -8,11 +8,11 @@
 # name: LISA Comment Review
 # run-name: LISA is 🕵️‍♀️ inspecting ${{ github.actor }} comment for ${{ github.event.issue.number }}
 
-# on: issue_comment
-on:
-  issues:
-    types:
-      - opened
+on: issue_comment
+# on:
+#   issues:
+#     types:
+#       - opened
 
 jobs:
   # pr_commented:
