@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo  Hi, I'm Lisa.  I will soon be conductin DROID Reviews each time you comment, such as the above commont # $NUMBER
+          echo  Hi, I\'m Lisa.  I will soon be conductin DROID Reviews each time you comment, such as the above commont # $NUMBER
         env:
           NUMBER: ${{ github.event.issue.number }}
 
