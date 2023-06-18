@@ -14,7 +14,9 @@ We use a scientific method known as WEF to orchestrate business incubation.  We 
 We are working in collaboration with INSTAR Lab Inc, a Research Institute known for building strong Scientific Methods.
 
 Read the below files to understand the UBF in more detail.
-- [United Business Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
+- [Universal Business Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
+- [Galactic Enterprise Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
+- [World Enterprise Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
 - [STAR Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/STAR.md)
 - [ORBITAL Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/ORBITAL.md)
 - [ANDROID Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/Android.md)
