@@ -8,28 +8,30 @@ Business Incubator that helps build Worlds. World Enterprise (WE) has over 20 ye
 
 <hr>
 
-## UNIVERSAL BUSINESS FRAMEWORK (UBF)
-We use a scientific method known as UBF to orchestrate business incubation.  We help ideas grow into products, products to companies, and companies to enterprises with over 20 years experience in the industry using our approach.
+## WORLD ENTERPRISE FRAMEWORK (WEF)
+We use a scientific method known as WEF to orchestrate business incubation.  We help ideas grow into products, products to companies, and companies to enterprises with over 20 years experience in the industry using our approach.
 
 We are working in collaboration with INSTAR Lab Inc, a Research Institute known for building strong Scientific Methods.
 
 Read the below files to understand the UBF in more detail.
-- [United Business Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
+- [Universal Business Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
+- [Galactic Enterprise Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
+- [World Enterprise Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
 - [STAR Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/STAR.md)
 - [ORBITAL Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/ORBITAL.md)
-- [DROID Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/DROID.md)
+- [ANDROID Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/Android.md)
 
 <hr>
 
-## UNIVERSE STRUCTURE
+## GALACTIC STRUCTURE
 
 ```mermaid 
 graph BT
-B[Galaxy]-->A[Universe]
-C[Black Hole]-->B[Galaxy]
-D[Super Nova]-->B[Galaxy]
+B(((Galaxy)))
+C[Black Hole]-->B(((Galaxy)))
+D[Super Nova]-->B(((Galaxy)))
 E[Solar System 1]-->D[Super Nova]
-M[Solar System 2]--->B[Galaxy]
+M[Solar System 2]--->B(((Galaxy)))
 Z[Solar System 3]-->C[Black Hole]
 
 subgraph E[Solar System 1]
@@ -57,15 +59,28 @@ end
 
 ## CORPORATE SOLAR SYSTEM STRUCTURE
 
+
+```mermaid
+graph BT
+ E[Solar System 1]
+direction BT
+G[Super Star]-->F[Sun]
+H[Star]-->F[Sun]
+I[Moon]-->G[Super Star]
+J[Moon 2]-->G[Super Star]
+K[Comet]---->F[Sun]
+L[Asteroid]--->F[Sun]
+```
+
 ```mermaid 
 graph BT
 O{{Flagship Product}}-->id1(((Corporation)))
 P{{Product}}-->id1(((Corporation)))
-ZA>STAFF]---DRZ[(DROID)]-->XA[ISSUE]--ORBITAL-->W([Milestone])--STAR-->V{{Product}}-->id1(((Corporation)))
-ZB>STAFF]---DR[(DROID)]-->XC[ISSUE]--ORBITAL-->Q([Milestone])--STAR-->O{{Flagship Product}}
-ZE>STAFF]---DR[(DROID)]
-ZF>STAFF]---DR[(DROID)]
-ZF>STAFF]---Du[(DROID)]-->XD[ISSUE]--ORBITAL-->R([Milestone])--STAR-->O{{Flagship Product}}
+ZA>STAFF]---DRZ[(Android)]-->XA[ISSUE]--ORBITAL-->W([Milestone])--STAR-->V{{Product}}-->id1(((Corporation)))
+ZB>STAFF]---DR[(Android)]-->XC[ISSUE]--ORBITAL-->Q([Milestone])--STAR-->O{{Flagship Product}}
+ZE>STAFF]---DR[(Android)]
+ZF>STAFF]---DR[(Android)]
+ZF>STAFF]---Du[(Android)]-->XD[ISSUE]--ORBITAL-->R([Milestone])--STAR-->O{{Flagship Product}}
 XE[ISSUE]--ORBITAL-->S([Bad Milestone])--STAR--->id1(((Corporation)))
 T([Unsuccessful Milestone])--STAR---->id1(((Corporation)))
 ```
