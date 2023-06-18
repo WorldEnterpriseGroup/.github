@@ -21,15 +21,15 @@ Read the below files to understand the UBF in more detail.
 
 <hr>
 
-## UNIVERSE STRUCTURE
+## GALACTIC STRUCTURE
 
 ```mermaid 
 graph BT
-B[Galaxy]-->A[Universe]
-C[Black Hole]-->B[Galaxy]
-D[Super Nova]-->B[Galaxy]
+B(((Galaxy)))
+C[Black Hole]-->B(((Galaxy)))
+D[Super Nova]-->B(((Galaxy)))
 E[Solar System 1]-->D[Super Nova]
-M[Solar System 2]--->B[Galaxy]
+M[Solar System 2]--->B(((Galaxy)))
 Z[Solar System 3]-->C[Black Hole]
 
 subgraph E[Solar System 1]
@@ -56,6 +56,19 @@ end
 ```
 
 ## CORPORATE SOLAR SYSTEM STRUCTURE
+
+
+```mermaid
+graph BT
+ E[Solar System 1]
+direction BT
+G[Super Star]-->F[Sun]
+H[Star]-->F[Sun]
+I[Moon]-->G[Super Star]
+J[Moon 2]-->G[Super Star]
+K[Comet]---->F[Sun]
+L[Asteroid]--->F[Sun]
+```
 
 ```mermaid 
 graph BT
