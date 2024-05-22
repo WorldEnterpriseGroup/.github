@@ -7,7 +7,7 @@ Each ANDROID needs to be titled with one of the below 5 phases.  The title must 
 <br><br>
 Below define the 5 possible phases when building ANDROIDs:
 
-## AUTOMATE:
+## ADVANCE:
 Through the power of automation, businesses will witness unprecedented efficiencies. Routine tasks that once consumed valuable time and resources will be seamlessly executed by intelligent systems, allowing human professionals to focus on more creative and strategic endeavors. ANDROID Ops will enable organizations to harness the full potential of automation, driving productivity and innovation to new heights.
 
 ## NETWORK:
