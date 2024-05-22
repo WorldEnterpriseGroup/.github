@@ -22,7 +22,7 @@ Explore our frameworks to understand the methodologies that drive our success:
 - [World Enterprise Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/UBF.md)
 - [STAR Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/STAR.md)
 - [ORBITAL Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/ORBITAL.md)
-- [ANDROID Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/Android.md)
+- [ANDROID Framework](https://github.com/WorldEnterpriseGroup/.github/blob/gh-pages/Frameworks/ANDROID%20Ops.md)
 
 <hr>
 
