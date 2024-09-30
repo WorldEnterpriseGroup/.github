@@ -1,4 +1,4 @@
-# Guide: How to Become Launch Specialties in World Enterprise
+# Guide: How to Become Launch Specialist in World Enterprise
 
 ## Introduction
 
