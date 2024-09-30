@@ -1,5 +1,5 @@
 # A.N.D.R.O.I.D. Ops:
-ANDROID Ops is a modified DevOps approach that focuses on S.M.A.R.T. (Specific, Measurable, Actionable, Relatable, and Timely) A.N.D.R.O.I.D. (Automate, Network, Design, Research, Optimize, Integrate, Deliver) Operations as 7 phases of project development. Each ANDROID is specialized to one specific purpose and should iterate even faster than a Lean Agile approach. The "Ops" portion focuses heavily on collaboration, communication, creative thinking, and deep cyber security practices.
+ANDROID Ops is a modified DevOps approach that focuses on S.M.A.R.T. (Specific, Measurable, Actionable, Relatable, and Timely) A.N.D.R.O.I.D. (Advance, Network, Design, Research, Optimize, Integrate, Deliver) Operations as 7 phases of project development. Each ANDROID is specialized to one specific purpose and should iterate even faster than a Lean Agile approach. The "Ops" portion focuses heavily on collaboration, communication, creative thinking, and deep cyber security practices.
 <br><br>
 Staff members choose their own ANDROIDs to ultimately help the organization reach Super Nova events. Their ANDROIDs should latch onto STARs and assist in steering, guiding, and manipulating stars to their final destination for cosmic-shifting results.
 <br><br>
@@ -7,12 +7,12 @@ Each ANDROID needs to be titled with one of the below 5 phases.  The title must 
 <br><br>
 Below define the 5 possible phases when building ANDROIDs:
 
-## AUTOMATE:
-Step 1: Identify tasks within business processes that are candidates for automation
-Step 2: Choose appropriate automation tools and technologies for these tasks
+## ADVANCE:
+Businesses will witness unprecedented efficiencies through advancements. Routine tasks that once consumed valuable time and resources will be seamlessly executed by intelligent systems, allowing human professionals to focus on more creative and strategic endeavors. ANDROID Ops will enable organizations to harness the full potential of automation, driving productivity and innovation to new heights.
+Step 1: Identify tasks within business processes that are candidates for advancements
+Step 2: Choose appropriate advancement/automation tools and technologies for these tasks
 Step 3: Design and develop automated workflows to replace manual task execution
 Step 4: Conduct thorough testing of automated processes to ensure reliability and efficiency
-Step 5: Deploy monitoring systems to track the performance of automated tasks and make adjustments as needed
 
 ## NETWORK:
 Step 1: Evaluate existing network infrastructure for current capabilities and future needs
