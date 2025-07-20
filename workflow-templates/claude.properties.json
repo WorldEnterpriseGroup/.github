@@ -1,0 +1,5 @@
+{
+    "name": "Claude Code Companion",
+    "description": "Triggers Claude for code review and suggestions on PR comments.",
+    "iconName": "comment-discussion"
+}
